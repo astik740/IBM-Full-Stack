@@ -12,6 +12,10 @@ header {
     background-color: #333;
     color: white;
     padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
@@ -40,8 +44,9 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    padding: 50px;
+    padding: 100px 20px;
     background-color: #eee;
+    margin-top: 60px;
 }
 
 .profile-img {
@@ -53,7 +58,8 @@ nav ul li a:hover {
 section {
     padding: 50px;
     background-color: white;
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 800px;
     border-radius: 8px;
 }
 
@@ -134,5 +140,5 @@ footer a {
 }
 
 footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline;
 }

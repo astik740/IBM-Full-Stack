@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm UPI Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 90%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .left h1 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .left p {
+            font-size: 16px;
+            margin-bottom: 25px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .app-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .app-links img {
+            width: 140px;
+            transition: transform 0.3s ease;
+        }
+
+        .app-links img:hover {
+            transform: scale(1.05);
+        }
+
+        .payment-info {
+            margin: 25px 0;
+            padding: 20px;
+            background: #e3f2fd;
+            border-radius: 10px;
+            width: 100%;
+            text-align: center;
+            transition: background 0.3s ease;
+        }
+
+        .payment-info:hover {
+            background: #bbdefb;
+        }
+
+        .payment-info h2 {
+            color: #0288d1;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .payment-info p {
+            font-size: 14px;
+            color: #555;
+            margin: 5px 0;
+        }
+
+        .users {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .users img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid #ddd;
+            padding: 5px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .users img:hover {
+            transform: scale(1.1);
+            border-color: #0288d1;
+        }
+
+        .users p {
+            font-size: 14px;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .send-money-text {
+            font-size: 18px;
+            color: #333;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Pay anyone directly from your bank account.</h1>
+            <p>Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm UPI or Directly from your Bank Account. Plus, send & receive money from anyone.</p>
+            <div class="app-links">
+                <a href="#"><img src="app-store.png" alt="Download on the App Store"></a>
+                <a href="#"><img src="google-play.png" alt="Get it on Google Play"></a>
+            </div>
+        </div>
+        <div class="payment-info">
+            <h2>₹250</h2>
+            <p>Paid Successfully</p>
+            <p>To Ajay Gupta</p>
+            <p>03 Feb, 10:10 AM</p>
+            <p>UPI Ref No: 1034464313126</p>
+        </div>
+        <p class="send-money-text">Send Money to your Contacts</p>
+        <div class="users">
+            <img src="https://wallpapercave.com/wp/wp7724314.jpg" alt="User 1">
+            <img src="https://xinva.ai/wp-content/uploads/2023/12/106.jpg" alt="User 2">
+            <img src="https://img.freepik.com/premium-photo/professional-3d-cartoon-image-student-wearing-glasses_325083-70.jpg?w=996" alt="User 3">
+            <img src="https://ilarge.lisimg.com/image/7872432/960full-peaky-blinders-photo.jpg" alt="User 4">
+            <img src="https://clipartix.com/wp-content/uploads/2016/09/Cartoons-clipart-image-1.jpg" alt="User 5">
+            <img src="https://img.freepik.com/premium-vector/ninja-cartoon-character-landing-pose_188898-317.jpg?w=2000" alt="User 6">
+            <img src="https://thumbs.dreamstime.com/b/cute-panda-cartoon-big-eyes-sitting-isolated-white-background-owl-320854001.jpg" alt="User 7">
+            <img src="https://i.pinimg.com/originals/e7/b1/79/e7b179fb7c98f2afddb40b1aff83788d.png" alt="User 8">
+        </div>
+        </div>
+    </div>
+</body>
+</html>
